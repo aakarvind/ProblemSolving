@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -25,6 +26,8 @@ public class UnionIntersection {
             for (int i : arr2) {
                 set2.add(i);
             }
+
+//            set.retainAll(Collections.singleton(arr2));   // alternate way
         Integer[] result =null;
             if(set.size()>set2.size()) {
                 for(int i:set2){
