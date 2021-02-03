@@ -1,4 +1,3 @@
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -13,8 +12,7 @@ public class UnionIntersection {
         for (int i : arr2) {
             set.add(i);
         }
-        Integer[] result = set.toArray(new Integer[0]);
-        return result;
+        return set.toArray(new Integer[0]);
     }
 
     static Integer[] getIntersection(int[] arr1, int[] arr2) {
@@ -28,7 +26,7 @@ public class UnionIntersection {
             }
 
 //            set.retainAll(Collections.singleton(arr2));   // alternate way
-        Integer[] result =null;
+        Integer[] result;
             if(set.size()>set2.size()) {
                 for(int i:set2){
                     if(!set.contains(i)){

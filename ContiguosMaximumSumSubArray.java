@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ContiguosMaximumSumSubArray {
+class ContiguousMaximumSumSubArray {
     static int start=0;
     static int end=0;
     static int sum=0;

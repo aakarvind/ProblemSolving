@@ -35,7 +35,7 @@ public class MinimizeHeights {
         }
         for(int i=1;i<nums.length-1;i++){
             int temp_big=nums[i]+k;
-            int temp_small=nums[i]-k; //sub
+            int temp_small=nums[i]-k;
 
             if(temp_big>=big || temp_small<=small)
                 continue;

@@ -14,6 +14,7 @@ public class KthMaxMin {
         maxHeap.addAll(Arrays.asList(arr));
         while(--k>0){
             maxHeap.poll();
+
         }
         return maxHeap.peek();
     }
@@ -35,7 +36,7 @@ public class KthMaxMin {
         System.out.print("Enter the value of K: ");
         int k=sc.nextInt();
         List<Integer> list= Arrays.asList(nums);
-        System.out.println("Kth Maximum Element: "+ getKthmin(list,k));
+        System.out.println("Kth Minimum Element: "+ getKthmin(list,k));
         System.out.println("Kth Maximum Element: "+ getKthMax(nums,k));
     }
 
