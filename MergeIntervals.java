@@ -16,7 +16,7 @@ public class MergeIntervals {
 
         int [][]result=merge2(nums);
         System.out.println("Merged Intervals:");
-        for (int[] arr:nums){
+        for (int[] arr:result){
             System.out.println(arr[0]+" , "+arr[1]);
         }
     }
