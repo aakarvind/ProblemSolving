@@ -4,6 +4,8 @@
  reverse the right part of index i
 */
 
+import org.jetbrains.annotations.Contract;
+
 import java.util.Scanner;
 
 public class NextPermutation {
@@ -25,6 +27,7 @@ public class NextPermutation {
             System.out.print(arr+" ");
         }
     }
+    @Contract("_ -> param1")
     public static int[] nextPermutation(int []nums){
         int right= nums.length-2;
         while(right>=0 && nums[right+1]<=nums[right]){
