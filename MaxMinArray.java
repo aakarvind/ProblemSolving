@@ -3,7 +3,8 @@
   Algo:
   Pick the elements in pair and compare them
  */
-import java.util.*;
+
+import java.util.Scanner;
 public class MaxMinArray {
     static class Pair{
         int max;
